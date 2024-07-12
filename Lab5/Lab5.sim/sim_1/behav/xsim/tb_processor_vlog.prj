@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../source_files/source_files/ALU.v" \
+"../../../../../source_files/source_files/ALUController.v" \
+"../../../../../source_files/source_files/Controller.v" \
+"../../../../../source_files/source_files/DataMem.v" \
+"../../../../../source_files/source_files/Datapath.v" \
+"../../../../../source_files/source_files/FlipFlop.v" \
+"../../../../../source_files/source_files/ImmGen.v" \
+"../../../../../source_files/source_files/InstMem.v" \
+"../../../../../source_files/source_files/Mux.v" \
+"../../../../../source_files/source_files/RegFile.v" \
+"../../../../../source_files/source_files/processor.v" \
+"../../../../Lab5.srcs/sim_1/new/tb_processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

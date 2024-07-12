@@ -1,0 +1,17 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/GINGINEERING/EECS31/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/GINGINEERING/EECS31/Lab5/Lab5.srcs/sim_1/new/tb_processor.v,1615331899,verilog,,,,tb_processor,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/ALU.v,1614713873,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/ALUController.v,,alu_32,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/ALUController.v,1615332440,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/Controller.v,,ALUController,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/Controller.v,1615332440,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/DataMem.v,,Controller,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/DataMem.v,1614735266,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v,,DataMem,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v,1615331464,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/FlipFlop.v,,data_path,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/FlipFlop.v,1612904370,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/ImmGen.v,,FlipFlop,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/ImmGen.v,1613511741,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/InstMem.v,,ImmGen,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/InstMem.v,1614714293,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/Mux.v,,Instmem,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/Mux.v,1614117984,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/RegFile.v,,mux21,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/RegFile.v,1612907821,verilog,,E:/GINGINEERING/EECS31/source_files/source_files/processor.v,,RegFile,,,,,,,,
+E:/GINGINEERING/EECS31/source_files/source_files/processor.v,1615352234,verilog,,E:/GINGINEERING/EECS31/Lab5/Lab5.srcs/sim_1/new/tb_processor.v,,processor,,,,,,,,

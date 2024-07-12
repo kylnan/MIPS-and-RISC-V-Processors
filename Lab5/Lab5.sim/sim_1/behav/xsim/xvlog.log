@@ -1,0 +1,29 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/ALUController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUController
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_path
+INFO: [VRFC 10-2458] undeclared symbol Carry_Out, assumed default net type wire [E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v:67]
+INFO: [VRFC 10-2458] undeclared symbol Zero, assumed default net type wire [E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v:68]
+INFO: [VRFC 10-2458] undeclared symbol Overflow, assumed default net type wire [E:/GINGINEERING/EECS31/source_files/source_files/Datapath.v:69]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/FlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/source_files/source_files/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS31/Lab5/Lab5.srcs/sim_1/new/tb_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_processor
+WARNING: [VRFC 10-2096] empty statement in sequential block [E:/GINGINEERING/EECS31/Lab5/Lab5.srcs/sim_1/new/tb_processor.v:45]
+WARNING: [VRFC 10-1581] illegal format specifier   for display [E:/GINGINEERING/EECS31/Lab5/Lab5.srcs/sim_1/new/tb_processor.v:146]

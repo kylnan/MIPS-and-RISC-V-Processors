@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/GINGINEERING/EECS31/LAB 1/MUX_21.v,1611016852,verilog,,E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sources_1/new/Instmem.v,,mux21,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 2/Lab 2.srcs/sources_1/new/ALU.v,1611900462,verilog,,E:/GINGINEERING/EECS31/LAB 1/MUX_21.v,,alu_32,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 2/Lab 2.srcs/sources_1/new/FA32.v,1611544380,verilog,,E:/GINGINEERING/EECS31/Lab 2/Lab 2.srcs/sources_1/new/ALU.v,,FA32,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sim_1/new/tb_FlipFlop.v,1612851787,verilog,,E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sim_1/new/tb_Instmem.v,,tb_FlipFlop,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sim_1/new/tb_Instmem.v,1612761929,verilog,,E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sim_1/new/tb_RegFile.v,,tb_Instmem,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sources_1/new/FlipFlop.v,1612904370,verilog,,E:/GINGINEERING/EECS31/Lab 2/Lab 2.srcs/sources_1/new/FA32.v,,FlipFlop,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sources_1/new/Instmem.v,1612899704,verilog,,E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sources_1/new/RegFile.v,,Instmem,,,,,,,,
+E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sources_1/new/RegFile.v,1612907821,verilog,,E:/GINGINEERING/EECS31/Lab 3/Lab 3.srcs/sim_1/new/tb_FlipFlop.v,,RegFile,,,,,,,,

@@ -1,0 +1,7 @@
+Running: xsim.dir/FA4_behav/xsimk.exe -simmode gui -wdb FA4_behav.wdb -simrunnum 0 -socket 53074
+Design successfully loaded
+Design Loading Memory Usage: 9648 KB (Peak: 9648 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 10224 KB (Peak: 10224 KB)
+Simulation CPU Usage: 61 ms
