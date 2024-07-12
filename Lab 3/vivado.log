@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Feb  8 16:43:01 2023
+# Process ID: 26592
+# Current directory: E:/GINGINEERING/EECS 112L/Lab 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42136 E:\GINGINEERING\EECS 112L\Lab 3\Lab 3.xpr
+# Log file: E:/GINGINEERING/EECS 112L/Lab 3/vivado.log
+# Journal file: E:/GINGINEERING/EECS 112L/Lab 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/GINGINEERING/EECS 112L/Lab 3/Lab 3.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/EECS 112L/Lab 3' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Kyl3Z/Downloads/tb_mips_32.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 796.758 ; gain = 159.824
