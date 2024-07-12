@@ -1,0 +1,16 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/GINGINEERING/EECS 112L/Lab 2/Lab 2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/ALU.v,1643274551,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/ALUControl.v,,ALU,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/ALUControl.v,1643274616,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/control.v,,ALUControl,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/control.v,1643524824,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/data_memory.v,,control,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/data_memory.v,1611025354,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/datapath.v,,data_memory,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/datapath.v,1643311841,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/instruction_mem.v,,datapath,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/instruction_mem.v,1643275143,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mips_32.v,,instruction_mem,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mips_32.v,1610606848,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mux2.v,,mips_32,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mux2.v,1610570510,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/register_file.v,,mux2,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/register_file.v,1610608242,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/sign_extend.v,,register_file,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/sign_extend.v,1610570606,verilog,,E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/tb_mips_32.v,,sign_extend,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/tb_mips_32.v,1643174910,verilog,,,,tb_mips_32,,,,,,,,

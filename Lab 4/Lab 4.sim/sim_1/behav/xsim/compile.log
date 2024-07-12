@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_Forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg_en
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/tb_mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_32

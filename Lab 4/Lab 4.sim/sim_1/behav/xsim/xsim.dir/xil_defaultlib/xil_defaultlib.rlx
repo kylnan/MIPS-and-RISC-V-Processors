@@ -1,0 +1,23 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALU.v,1636220817,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v,,ALU,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v,1645950622,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v,,ALUControl,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v,1646119362,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v,,EX_Forwarding_unit,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v,1646120092,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v,,EX_pipe_stage,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v,1645874889,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v,,Hazard_detection,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v,1645926821,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v,,ID_pipe_stage,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v,1646119362,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v,,IF_pipe_stage,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v,1636220833,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v,,control,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v,1636220841,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v,,data_memory,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v,1644348185,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v,,instruction_mem,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v,1645930407,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v,,mips_32,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v,1636220902,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v,,mux2,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v,1636220910,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v,,mux4,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v,1645927998,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v,,pipe_reg,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v,1636220919,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v,,pipe_reg_en,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v,1636220937,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v,,register_file,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v,1636220945,verilog,,E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/tb_mips_32.v,,sign_extend,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/tb_mips_32.v,1645876056,verilog,,,,tb_mips_32,,,,,,,,

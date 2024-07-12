@@ -1,0 +1,113 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ANDI 1		success!
+
+NOR  1		success!
+
+SLT  1		success!
+
+SLL  1		success!
+
+SRL  1		success!
+
+SRA  1		success!
+
+XOR  1		success!
+
+MULT 1		success!
+
+DIV  1		success!
+
+ANDI 2		success!
+
+NOR  2		success!
+
+SLT  2		success!
+
+SLL  2		success!
+
+SRL  2		success!
+
+SRA  2		success!
+
+XOR  2		success!
+
+MULT 2		success!
+
+DIV  2		success!
+
+ANDI 3		success!
+
+NOR  3		success!
+
+SLT  3		success!
+
+SLL  3		success!
+
+SRL  3		success!
+
+SRA  3		success!
+
+XOR  3		success!
+
+MULT 3		success!
+
+DIV  3		success!
+
+ANDI 4		success!
+
+NOR  4		success!
+
+SLT  4		success!
+
+SLL  4		success!
+
+SRL  4		success!
+
+SRA  4		success!
+
+XOR  4		success!
+
+MULT 4		success!
+
+DIV  4		success!
+
+ANDI 5		success!
+
+NOR  5		success!
+
+SLT  5		success!
+
+SLL  5		success!
+
+SRL  5		success!
+
+SRA  5		success!
+
+XOR  5		success!
+
+MULT 5		success!
+
+DIV  5		success!
+
+BEQ  1		failed!
+
+BEQ  2		success!
+
+BEQ  3		failed!
+
+BEQ  4		success!
+
+BEQ  5		success!
+
+j  1		failed!
+
+j  2		success!
+
+j  3		failed!
+
+j  4		failed!
+
+j  5		failed!
+
+points : 55

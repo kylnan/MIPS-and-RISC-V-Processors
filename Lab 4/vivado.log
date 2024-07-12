@@ -1,0 +1,406 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Feb 26 18:59:33 2022
+# Process ID: 24092
+# Current directory: E:/GINGINEERING/EECS 112L/Lab 4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32620 E:\GINGINEERING\EECS 112L\Lab 4\Lab 4.xpr
+# Log file: E:/GINGINEERING/EECS 112L/Lab 4/vivado.log
+# Journal file: E:/GINGINEERING/EECS 112L/Lab 4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mips_32' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_mips_32_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_Forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_pipe_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_reg_en
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/tb_mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_32
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.sim/sim_1/behav/xsim'
+"xelab -wto a0712ce8cf224ca6a00e8b93e7b23317 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_32_behav xil_defaultlib.tb_mips_32 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto a0712ce8cf224ca6a00e8b93e7b23317 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_32_behav xil_defaultlib.tb_mips_32 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2(mux_width=10)
+Compiling module xil_defaultlib.instruction_mem
+Compiling module xil_defaultlib.IF_pipe_stage
+Compiling module xil_defaultlib.pipe_reg_en(WIDTH=10)
+Compiling module xil_defaultlib.pipe_reg_en(WIDTH=32)
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extend
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.mux2(mux_width=5)
+Compiling module xil_defaultlib.mux2(mux_width=1)
+Compiling module xil_defaultlib.mux2(mux_width=2)
+Compiling module xil_defaultlib.ID_pipe_stage
+Compiling module xil_defaultlib.pipe_reg(WIDTH=32)
+Compiling module xil_defaultlib.pipe_reg(WIDTH=5)
+Compiling module xil_defaultlib.pipe_reg(WIDTH=1)
+Compiling module xil_defaultlib.pipe_reg(WIDTH=2)
+Compiling module xil_defaultlib.Hazard_detection
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_pipe_stage
+Compiling module xil_defaultlib.EX_Forwarding_unit
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.mips_32
+Compiling module xil_defaultlib.tb_mips_32
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mips_32_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/GINGINEERING/EECS 112L/Lab 4/Lab 4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_mips_32_behav -key {Behavioral:sim_1:Functional:tb_mips_32} -tclbatch {tb_mips_32.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_mips_32.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 3000ns
+ANDI 1		success!
+
+NOR  1	 	failed!
+
+SLT  1		success!
+
+SLL  1	 	failed!
+
+SRL  1		success!
+
+SRA  1	 	failed!
+
+XOR  1	 	failed!
+
+MULT 1	 	failed!
+
+DIV  1	 	failed!
+
+ANDI 2		success!
+
+NOR  2		failed!
+
+SLT  2		failed!
+
+SLL  2		failed!
+
+SRL  2		failed!
+
+SRA  2		failed!
+
+XOR  2		failed!
+
+MULT 2		failed!
+
+DIV  2		failed!
+
+ANDI 3		success!
+
+NOR  3		failed!
+
+SLT  3		failed!
+
+SLL  3		failed!
+
+SRL  3		failed!
+
+SRA  3		failed!
+
+XOR  3		failed!
+
+MULT 3		failed!
+
+DIV  3		failed!
+
+ANDI 4		success!
+
+NOR  4		failed!
+
+SLT  4		failed!
+
+SLL  4		failed!
+
+SRL  4		failed!
+
+SRA  4		failed!
+
+XOR  4		failed!
+
+MULT 4		failed!
+
+DIV  4		failed!
+
+ANDI 5		success!
+
+NOR  5		failed!
+
+SLT  5		failed!
+
+SLL  5		failed!
+
+SRL  5		failed!
+
+SRA  5		failed!
+
+XOR  5		failed!
+
+MULT 5		failed!
+
+DIV  5		failed!
+
+BEQ  1		failed!
+
+BEQ  2		success!
+
+BEQ  3		failed!
+
+BEQ  4		failed!
+
+BEQ  5		success!
+
+j  1		failed!
+
+j  2		success!
+
+j  3		failed!
+
+j  4		failed!
+
+j  5		failed!
+
+points : 14.5
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mips_32_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 3000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 833.172 ; gain = 43.418
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: mips_32
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1317.074 ; gain = 232.445
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mips_32' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v:4]
+INFO: [Synth 8-6157] synthesizing module 'IF_pipe_stage' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+	Parameter mux_width bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (1#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+INFO: [Synth 8-6157] synthesizing module 'instruction_mem' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_mem' (2#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/instruction_mem.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'IF_pipe_stage' (3#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg_en' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v:3]
+	Parameter WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg_en' (4#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg_en__parameterized0' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg_en__parameterized0' (4#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ID_pipe_stage' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v:4]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (5#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/register_file.v:4]
+INFO: [Synth 8-6157] synthesizing module 'sign_extend' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extend' (6#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/sign_extend.v:4]
+INFO: [Synth 8-6157] synthesizing module 'control' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'control' (7#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/control.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+	Parameter mux_width bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (7#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized1' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+	Parameter mux_width bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized1' (7#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized2' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+	Parameter mux_width bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized2' (7#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ID_pipe_stage' (8#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg' (9#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg__parameterized0' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg__parameterized0' (9#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg__parameterized1' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg__parameterized1' (9#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pipe_reg__parameterized2' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipe_reg__parameterized2' (9#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/pipe_reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Hazard_detection' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard_detection' (10#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v:4]
+INFO: [Synth 8-6157] synthesizing module 'EX_pipe_stage' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v:4]
+	Parameter mux_width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (11#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux4.v:4]
+WARNING: [Synth 8-7023] instance 'reg1_mux' of module 'mux4' has 6 connections declared, but only 5 given [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v:23]
+WARNING: [Synth 8-7023] instance 'reg2_mux' of module 'mux4' has 6 connections declared, but only 5 given [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v:31]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized3' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+	Parameter mux_width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized3' (11#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mux.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALUControl' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControl' (12#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALUControl.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALU.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (13#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/ALU.v:4]
+WARNING: [Synth 8-7023] instance 'ALU_inst' of module 'ALU' has 5 connections declared, but only 4 given [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'EX_pipe_stage' (14#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v:3]
+INFO: [Synth 8-6157] synthesizing module 'EX_Forwarding_unit' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'EX_Forwarding_unit' (15#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (16#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/data_memory.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'mips_32' (17#1) [E:/GINGINEERING/EECS 112L/Lab 4/Lab4_files/Lab4_file_uploaded 3/mips_32.v:4]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[31]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[30]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[29]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[28]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[27]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[26]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[25]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[24]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[23]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[22]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[21]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[20]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[19]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[18]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[17]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[16]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[15]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[13]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[11]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[10]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[1]
+WARNING: [Synth 8-3331] design data_memory has unconnected port mem_access_addr[0]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[31]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[30]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[29]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[28]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[27]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[26]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[25]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[24]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[23]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[22]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[21]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[20]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[19]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[18]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[17]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[16]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[15]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[14]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[13]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[12]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[11]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[10]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[9]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[8]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[7]
+WARNING: [Synth 8-3331] design EX_pipe_stage has unconnected port id_ex_instr[6]
+WARNING: [Synth 8-3331] design instruction_mem has unconnected port read_addr[1]
+WARNING: [Synth 8-3331] design instruction_mem has unconnected port read_addr[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1387.344 ; gain = 302.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1387.344 ; gain = 302.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1387.344 ; gain = 302.715
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1387.344 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1496.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1516.062 ; gain = 431.434
+55 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 1516.062 ; gain = 674.105
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 26 19:04:46 2022...

@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_alu.v,1642389958,verilog,,,,tb_alu,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_alu_fixed.v,1641936999,verilog,,,,tb_alu_fixed,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_dff_PC.v,1642361743,verilog,,,,tb_dff_PC,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_dff_SR.v,1642361421,verilog,,,,tb_dff_SR,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sources_1/new/alu.v,1641930767,verilog,,E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_alu.v,,alu,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sources_1/new/alu_fixed.v,1641955142,verilog,,E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_alu.v,,alu_fixed,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sources_1/new/dff_PC.v,1642361705,verilog,,E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_dff_PC.v,,dff_PC,,,,,,,,
+E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sources_1/new/dff_SR.v,1642361349,verilog,,E:/GINGINEERING/EECS 112L/Lab 1/Lab 1.srcs/sim_1/new/tb_dff_PC.v,,dff_SR,,,,,,,,

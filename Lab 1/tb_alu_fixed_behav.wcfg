@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_alu_fixed_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_alu_fixed" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3316500fs"></ZoomStartTime>
+      <ZoomEndTime time="3387501fs"></ZoomEndTime>
+      <Cursor1Time time="3354400fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_alu_fixed/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/r_ALU_Sel" type="array">
+      <obj_property name="ElementShortName">r_ALU_Sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_ALU_Sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/r_A" type="array">
+      <obj_property name="ElementShortName">r_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/r_B" type="array">
+      <obj_property name="ElementShortName">r_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/w_ALU_Out" type="array">
+      <obj_property name="ElementShortName">w_ALU_Out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ALU_Out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_alu_fixed/w_CarryOut" type="logic">
+      <obj_property name="ElementShortName">w_CarryOut</obj_property>
+      <obj_property name="ObjectShortName">w_CarryOut</obj_property>
+   </wvobject>
+</wave_config>

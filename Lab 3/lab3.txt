@@ -1,0 +1,82 @@
+# Template for Lab 3. You should put your codes for programs 1.1 1.2 2.1 2.2 3.1 3.2 4.1 4.3 here. 
+
+# File Name: lab3.txt
+
+# Please read instructions carefully:
+
+# 1. Use hash sign (#) for comments.
+
+# 2. Add your code and comments between provided "begin" and "end" for each program. Do NOT change other parts of this template.
+
+# 3. Name this file "lab3.txt". 
+
+# 4. For assembly code, follow section 1.2 of the lab manual as example (but only use instructions we defined in lab 2); pay close attention to how R, I, J instructions, lw and sw are used.
+# Example:
+# add $t1, $t3, $t2 #comments if needed
+# addi $t1, $zero, 5 #comments if needed
+# lw $t2, 24($s0) #comments if needed
+
+# When referring to registers, use the as instructed in the lab manual, such as $REGISTER_NAME. e.g. $zero, $s0, $t0.
+# See the beginning of section 3 for more details.
+
+# 5.The initial label for each program is provided, but you can add more labels if needed. 
+
+# 6. For machine code, use 32 bits binary numbers. 
+# Do not add 32'b prefix or ; at the end.
+# Example:
+# 00100001011010010000000100100011 #comments if needed
+# 00000001011010100100100000100000 #comments if needed
+
+#
+# Program 1
+program_1_1: # this is the label for the assembly program
+# -------- begin your MIPS assembly code --------
+addi $s0, $zero, 2 #all addi instructions load constants for all programs
+addi $s1, $zero, 10
+addi $s2, $zero, 5
+addi $s3, $zero, 6
+addi $s4, $zero, 2
+
+add $t0, $s2, $s3 # g + h
+add $t1, $s4, $s0 # i + j
+sub $s1, $t0, $t1 # f = (g + h) - (i + j) 
+# -------- end ----------------------------------
+
+#
+# Program 1.2
+# -------- begin your MIPS Machine code ---------
+00100000000100000000000000000010
+00100000000100010000000000001010 
+00100000000100100000000000000101
+00100000000100110000000000000110
+00100000000101000000000000000010
+00000010010100110100000000100000
+00000010100100000100100000100000
+00000001000010011000100000100010
+# -------- end ----------------------------------
+
+#
+# Program 2
+program_2_1:
+# -------- begin your MIPS assembly code --------
+beq $s4, $s0, else #else { f = g - h } 
+add $s1, $s2, $s3 #if (i!=j) { f = g + h }
+j exit
+else:
+	sub $s1, $s2, $s3
+exit: # this will end up jumping to program 3
+# -------- end ----------------------------------
+
+#
+# Program 2.2
+# -------- begin your MIPS Machine code ---------
+00010010000101000000000000000010
+00000010010100111000100000100000
+00001000000000000000000000010110
+00000010010100111000100000100010
+# -------- end ----------------------------------
+
+#
+# Program 3
+program_3_1:
+# -------- begin your MIPS assem

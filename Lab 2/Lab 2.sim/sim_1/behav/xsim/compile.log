@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/instruction_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GINGINEERING/EECS 112L/Lab 2/lab2_files/tb_mips_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_32

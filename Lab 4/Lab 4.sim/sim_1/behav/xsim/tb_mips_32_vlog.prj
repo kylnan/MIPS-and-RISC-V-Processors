@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab4_files/Lab4_file_uploaded 3/ALU.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/ALUControl.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/EX_Forwarding_unit.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/EX_pipe_stage.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/Hazard_detection.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/ID_pipe_stage.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/IF_pipe_stage.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/control.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/data_memory.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/instruction_mem.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/mips_32.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/mux.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/mux4.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/pipe_reg.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/pipe_reg_en.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/register_file.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/sign_extend.v" \
+"../../../../Lab4_files/Lab4_file_uploaded 3/tb_mips_32.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

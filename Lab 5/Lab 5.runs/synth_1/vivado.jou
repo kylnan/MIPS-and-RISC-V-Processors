@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 13 16:37:01 2022
+# Process ID: 20212
+# Current directory: E:/GINGINEERING/EECS 112L/Lab 5/Lab 5.runs/synth_1
+# Command line: vivado.exe -log behav_counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source behav_counter.tcl
+# Log file: E:/GINGINEERING/EECS 112L/Lab 5/Lab 5.runs/synth_1/behav_counter.vds
+# Journal file: E:/GINGINEERING/EECS 112L/Lab 5/Lab 5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source behav_counter.tcl -notrace
